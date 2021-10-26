@@ -1,0 +1,32 @@
+package numericData;
+
+class exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double sem1 = 3.84;
+		double sem2 = 3.78;
+		double sem3 = 3.29;
+		double sem4 = 3.31;
+		double sem5 = 3.95;
+		double sem6 = 3.89;
+		String name = "Muhammad Luqman bin Ahmad Zamri";
+		String name2 = "Diploma Teknologi Maklumat";
+		String name3 = "Politeknik Ungku Omar";
+		double CGPA;
+		
+		
+		CGPA = ((sem1 + sem2 + sem3 + sem4 + sem5 + sem6)/6); 
+		
+				System.out.println("Nama : " + name);
+				System.out.println("Program : "  + name2);
+				System.out.println("Nama Institusi : " + name3);
+				System.out.printf("CGPA ialah : %.2f " , CGPA );
+				
+		
+		
+		
+
+	}
+
+}
