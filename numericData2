@@ -1,0 +1,76 @@
+package numericData2;
+
+import java.util.Scanner;
+
+public class Newexercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1;
+		int num2;
+		int num3;
+		int num4;
+		int num5;
+		int num6;
+		String name;
+		int sum;
+		double baki;
+		double baki2;
+		char Y;
+		char N;
+		
+		
+		
+		
+		Scanner scanMe = new Scanner(System.in); // scanMe declare sekali
+		
+		System.out.println("Please enter your name : ");
+		name = scanMe.nextLine();
+		System.out.println("Your name is :" + name);
+		
+		System.out.println("Please enter amount 1 :");
+		num1 = scanMe.nextInt();
+		System.out.println("Amount is :" + num1);
+		
+		System.out.println("Please enter amount 2 :");
+		num2 = scanMe.nextInt();
+		System.out.println("Amount 2 is :" + num2);
+		
+		System.out.println("Please enter amount 3 : ");
+		num3 = scanMe.nextInt();
+		System.out.println("Amount 3 is :" + num3);
+		
+		System.out.println("Please enter amount 4 : ");
+		num4 = scanMe.nextInt();
+		System.out.println("Amount 4 is :" + num4);
+		
+		System.out.println("Please enter amount 5 : ");
+		num5 = scanMe.nextInt();
+		System.out.println("Amount 5 is :" + num5);
+		
+		System.out.println("Please enter amount 6 : ");
+		num6 = scanMe.nextInt();
+		System.out.println("Amount 6 is :" + num6);
+		
+		sum = num1 + num2 + num3 + num4 + num5 + num6 ;
+		
+		System.out.println("total : " + sum);
+		
+		System.out.println("Please enter your balance :");
+		baki = scanMe.nextDouble();
+		
+		System.out.println("Please enter your amount :");
+		baki2 = scanMe.nextDouble();
+		
+		baki = sum - baki2;
+		
+		System.out.println("Your current balance is :" + baki);
+		
+		System.out.println("Do you want to proceed ?");
+		System.out.println("Press Y if yes, and N is no");
+		Y = scanMe.next().charAt(0);
+		System.out.println("YES " + Y);
+		
+	}
+
+}
